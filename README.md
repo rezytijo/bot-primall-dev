@@ -18,7 +18,7 @@
 ## Linux
 ```terminal
 >sudo su
->apt update && apt upgrade -y && apt autoremove
+>apt update && apt upgrade -y && apt autoremove -y
 >apt install nodejs -y
 >apt install npm -y
 >apt install ffmpeg -y
