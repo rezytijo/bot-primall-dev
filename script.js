@@ -277,6 +277,13 @@ async function starts() {
                     fs.writeFileSync("./database/akinator.json", JSON.stringify(akinator))
                 })
             }
+            const yogyarasa = new RegExp(/yogyarasa/i)
+           if (yogyarasa.test(budy)==true){
+               txt = `Yogyarasa\n`
+               txt += `0851-5624-6081\n`
+               txt += `https://maps.app.goo.gl/p22Jpg8xQUDz64UVA\n`
+               reply(txt)
+            }
 
             switch (command) {
                 case 'help':
